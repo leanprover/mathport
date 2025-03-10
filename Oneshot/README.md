@@ -17,6 +17,7 @@ This is a template which you can use to quickly play with the translation of sni
 10. Run `make oneshot`
 
 After the first run, you only have to repeat steps 8-10, unless you want to update mathlib (step 7) or mathport itself (`git pull` and then steps 4-10).
+Be sure to leave `Oneshot/lean3-in/leanpkg.path` in place for subsequent runs.
 
 If things work, at the end you should see
 `# output is in Outputs/src/oneshot/Oneshot/Main.lean`.
